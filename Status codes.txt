@@ -1,0 +1,11 @@
+Status codes:
+
+1 = pre-launch idle
+
+2 = powered ascent
+
+3 = coasting/apogee
+
+4 = descent
+
+5 = landed
