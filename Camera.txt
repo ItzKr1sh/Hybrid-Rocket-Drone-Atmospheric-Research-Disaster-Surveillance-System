@@ -1,0 +1,11 @@
+What adding an ESP32-CAM (downward / forward camera) gives you
+
+Live video feed tied to telemetry: see exactly where and what the rocket/drone sees, synchronized to GPS + IMU.
+
+Visual confirmation of events (launch, separation, apogee, impact). Judges crave proof — video = proof.
+
+Edge processing potential (TinyML): basic object detection onboard (people, fire, damaged structures) to reduce bandwidth and act autonomously.
+
+Geotagged imagery for mapping, inspection & evidence collection.
+
+Low cost & simple integration — ESP32-CAM ~₹300–700; plugs into Air Unit or drone bottom plate.

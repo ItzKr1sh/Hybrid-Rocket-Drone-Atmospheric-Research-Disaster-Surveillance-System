@@ -1,0 +1,170 @@
+🚀 Blueprint for Science Exhibition Project
+
+1. Title of the Model
+
+“KRxshLabs: Hybrid Rocket-Drone Atmospheric Research & Disaster Surveillance System”
+
+---
+
+2. Theme / Sub-theme
+
+Theme: Industry 4.0 / Sustainable Environment
+Sub-theme: Smart Transport & Communication / Disaster Management
+
+---
+
+3. Objective / Aim
+
+To design and demonstrate a low-cost hybrid system combining a sensor-loaded experimental rocket and a drone surveillance unit for:
+
+Collecting real-time atmospheric data (temperature, pressure, humidity, acceleration, GPS).
+
+Providing live aerial imaging using ESP32-CAM drone integration.
+
+Developing scalable applications for disaster management, agriculture, and climate monitoring.
+
+---
+
+4. Scientific Principle / Concept
+
+Newton’s Third Law of Motion → Rocket propulsion.
+
+Barometric pressure-altitude relation → Height calculation (BMP280/BMP180).
+
+Tri-axial accelerometer & gyroscope (MPU6050) → Motion & stability sensing.
+
+Satellite-based GPS (NEO-6M) → Real-time location tracking.
+
+Wireless IoT Communication (NRF24L01 / ESP32 WiFi) → Data transmission.
+
+Drone principles (aerodynamics + remote control) → Stable surveillance.
+
+---
+
+5. Materials Required
+
+PVC-based sugar rocket (for demo).
+
+ESP32 microcontroller.
+
+Sensors: BMP280, BMP180, MPU6050, DHT11, NEO-6M GPS.
+
+NRF24L01 module (airborne-ground communication).
+
+OLED Display + SD card module (ground unit logging).
+
+ESP32-CAM module (for drone bottom camera).
+
+Li-Po battery packs.
+
+Drone kit frame, motors, ESCs.
+
+Ground station laptop/mobile with plotting software / website.
+
+---
+
+6. Construction / Working
+
+1. Rocket Section:
+
+Launched from Zaroli with embedded ESP32 + sensors.
+
+Measures atmospheric parameters (altitude, acceleration, temp, pressure, humidity).
+
+Sends real-time telemetry to the ground station.
+
+Flight path plotted live on a 3D map website (KRxshLabs UI).
+
+2. Drone Section:
+
+Equipped with ESP32-CAM beneath the frame for live aerial video.
+
+Can hover over target zones to monitor disasters, floods, or forest fires.
+
+Communicates data/images to ground unit wirelessly.
+
+3. Ground Unit:
+
+Receives, logs, and plots rocket + drone data.
+
+Displays trajectory, altitude, apogee, sensor trends.
+
+Provides a simulation replay feature for analysis.
+
+---
+
+7. Observation / Expected Outcome
+
+Rocket reaches ~200m altitude (scaled PVC demo).
+
+Accurate logging of altitude, temperature, humidity, acceleration, GPS path.
+
+Drone streams live video + transmits environmental data.
+
+3D trajectory map + sensor graphs visible on ground station.
+
+---
+
+8. Applications in Real Life
+
+Disaster Management: Quick aerial survey & real-time data for floods, earthquakes, wildfires.
+
+Agriculture: Crop health monitoring, soil moisture/temp mapping, pest control via aerial survey.
+
+Climate Research: Low-cost atmospheric studies (mini weather balloons alternative).
+
+Defense & Security: Border surveillance with low-cost sensor-drones.
+
+Urban Planning: Monitoring air quality, heat islands, and traffic pollution.
+
+---
+
+9. Advantages / Importance
+
+Low-cost, scalable model using open-source hardware.
+
+Dual system (Rocket + Drone) shows versatility and multi-application potential.
+
+Real-time visualization on modern 3D interface (appeals to judges).
+
+Promotes Make in India innovation in aerospace + IoT + AI.
+
+---
+
+10. Cost Effective / Limitations
+
+Designed with readily available, cheap components (ESP32, PVC, sugar fuel).
+
+Limitation: Scale demo (not full rocket altitude).
+
+Drone range limited by WiFi/NRF24L01 (~100–200m).
+
+---
+
+11. Future Scope / Improvements
+
+Replace sugar rocket with hybrid liquid fuel for higher altitudes.
+
+AI-driven drone swarm for disaster zones.
+
+Integration with satellite data for advanced weather prediction.
+
+Deployment in rural India for farmer support & disaster alerts.
+
+---
+
+12. Conclusion
+
+This model demonstrates how affordable technology (ESP32, open sensors, drones, rockets) can revolutionize data collection, disaster response, and sustainable monitoring. By combining aerospace principles with IoT and AI, it creates a scalable, practical, and futuristic solution directly aligned with CBSE themes.
+
+---
+
+13. References / Sources
+
+NASA Glenn Research Center – Principles of Rocket Propulsion.
+
+Arduino & ESP32 Documentation.
+
+CBSE Science Exhibition Guidelines.
+
+OpenStreetMap & Leaflet.js for 3D visualization.
